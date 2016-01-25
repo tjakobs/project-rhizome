@@ -424,6 +424,31 @@ li
  font-family: 'Lustria', serif; 
 }
 
+
+.blog-articles li
+{
+  text-decoration: none;
+  font-family: inherit;
+  margin-bottom: 70px;
+}
+
+.blog-articles,
+.blog-articles li:last-child
+{
+  margin-bottom: 0;
+}
+
+.blog-articles li h3
+{
+  margin-bottom: 10px;
+}
+
+.blog-articles li p
+{
+  margin: 0 0 15px 0;
+}
+
+
 .footer-link:link,
 .footer-link:visited
 {
