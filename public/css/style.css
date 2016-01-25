@@ -448,6 +448,16 @@ li
   margin: 0 0 15px 0;
 }
 
+.blog-articles.featured
+{
+  border: 1px solid #EEE;
+  padding: 10px 50px 50px 60px;
+}
+
+.blog-articles.featured li:not(:last-child)
+{
+  margin-bottom: 50px;
+}
 
 .footer-link:link,
 .footer-link:visited
